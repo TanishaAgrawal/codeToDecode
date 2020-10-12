@@ -1,0 +1,13 @@
+.form-control{
+    
+    width: 40%;
+    margin-right: 50px;
+}
+ btn-primary{
+    background-color: #ef0000 !important;
+    border-color: #ef0000;
+}
+
+.card-img-top {
+    width: 40%;
+}

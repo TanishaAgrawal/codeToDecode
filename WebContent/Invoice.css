@@ -1,17 +1,25 @@
 body {
-
- background-color: #D3D3D3;
- 
-   
+	background-color: #D3D3D3;
 }
+
 .navbar {
-
- background-color: black;
+	background-color: black;
 }
+
 .navbar a {
+	color: white;
+}
 
- color: white;
+#h {
+	border: 2px solid red;
 }
-#h{
- border: 2px solid red;
-}
+.footer-text{
+  	margin-top:20px;
+  	color: #ffffff;
+  	margin-bottom:20px;
+  	font-size: 12px;
+    font-weight: 600;
+  }
+  .footer-content-outer-div{
+  	justify-content: center;
+  }

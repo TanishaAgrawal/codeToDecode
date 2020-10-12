@@ -1,0 +1,188 @@
+body{
+    overflow: hidden;
+  }
+.row {
+    display: flex;
+  }
+
+  input#customerId {
+    color: black;
+    font-size: 20px;
+    padding-left: 40px;
+}
+input#customerId:hover {
+    
+   
+    font-weight: bold;
+}
+input#customerPassword:hover {
+    
+   
+    font-weight: bold;
+}
+input#customerPassword {
+    color: black;
+    font-size: 20px;
+    padding-left: 40px;
+}
+  .column1 {
+    flex: 61%;
+    height: 80vh;
+  }
+  .column2 {
+    flex: 39%;
+    height: 90vh;
+  }
+  #col1{
+    background: #ffffff url('../images/Customer.svg') no-repeat;
+    background-size: contain;
+  }
+  #col2{
+    background:  #ef0000 no-repeat;
+  }
+  #customerPassword{
+background-image: url("../images/passwordicon.svg");
+background-position-y: center;
+position: left;
+padding-left: 30px;
+background-size: 30px;
+background-repeat: no-repeat;
+border-radius: 8px;
+background-color: #ef0000;
+    border-color: black;
+}
+.card{
+        background-color: #ef0000;
+        
+   
+}
+        
+    
+    
+    .card-body{
+        height: 50vh;
+        background-color: #ef0000;
+        padding-top:30px;
+        
+        border-color: #000000;
+        border-width: 10px;
+
+    }
+#customer-employee{
+     position: absolute;
+ 
+  z-index: 15;
+  top: 35%;
+  left: 79%;
+  margin: -100px 0 0 -150px;
+  float: right;
+  filter: drop-shadow(4px 4px 15px black);
+    }
+#customerId{
+    background-image: url("../images/usericon.svg");
+    background-position-y: center;
+position: left;
+padding-left: 30px;
+background-size: 30px;
+background-repeat: no-repeat;
+border-radius: 8px;
+background-color: #ef0000;
+    border-color: black;
+    
+}
+.form-control:focus {
+    color: black;
+    background-color: #fff;
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem black;
+}
+.form-control:hover {
+    color: black;
+    background-color: #fff;
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem black;
+}
+.login-box{
+    width: 220px;
+    position: absolute;
+    /*top: 55%;
+    left: 50%;*/
+    transform: translate(25%,0%);
+    color:#000000;
+   
+}
+.login-box h1{
+    float: left;
+    font-size: 30px;
+    border-bottom: 6px solid #000000;
+    margin-bottom: 30px;
+    padding: 13px 0;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    color: #000000;
+    padding: 8px 2px;
+    margin: 8px 0;
+    border-bottom: 1px solid;    
+}
+.textbox i{
+    width: 56px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    background: none;
+    outline: none;
+    color:#000000 !important;
+    font-size: 18px;
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.customerbutton{
+    width: 50%;
+    background-color:#ef0000;
+    border: 2px solid #000000;
+    cursor: pointer;
+    color:#000000;
+    padding: 10px;
+    margin: 15px;
+    font-size: 18px;
+    transform: translate(0%,20%);
+    border-radius: 8px;
+   
+}
+
+.customerbutton:hover{
+  border: 5px solid;
+  width: 63%;
+  font-weight: bold;
+}
+.form-control::-webkit-input-placeholder { color:black; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color:black; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color:black; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color:black; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color:black; }  /* Microsoft Edge */
+  
+.footer-content-outer-div{
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+.footer-text{
+    margin-top: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}

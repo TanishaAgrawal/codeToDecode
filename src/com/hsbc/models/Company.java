@@ -112,6 +112,16 @@ public class Company {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Company [companyName=" + companyName + ", companyAddress=" + companyAddress + ", companyCity="
+				+ companyCity + ", gstNumber=" + gstNumber + ", createdAt=" + createdAt + ", updatedAt=" + updatedAt
+				+ "]";
+	}
+	
 	
 	
 }

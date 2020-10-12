@@ -6,6 +6,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
 import com.hsbc.service.NewQuoteService;
 
 /**
@@ -14,7 +17,7 @@ import com.hsbc.service.NewQuoteService;
 @WebServlet("/ProductQuoteSubmit")
 public class ProductQuoteSubmit extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+	private static final Logger log = LogManager.getLogger(ProductQuoteSubmit.class); 
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -31,15 +34,16 @@ public class ProductQuoteSubmit extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		log.info("/ProductQuoteSubmit GET request received");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * Receives POST request with order data as parameters forwards it to service layer for addition to db
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		log.info("/ProductQuoteSubmit POST request received");
 		String orderDate=request.getParameter("orderDate");
 		String customerId=request.getParameter("customerId");
 		String employeeId=request.getParameter("employeeId");
@@ -55,9 +59,7 @@ public class ProductQuoteSubmit extends HttpServlet {
 		String shippingCost=request.getParameter("shippingCosts");
 		
 		newQuoteService.saveOrderDetailsToDb(orderDate,customerId,employeeId,gstNumber,address,city,phone,email,pincode,productIds,totalOrderValue,shippingCost);
-		
-		
-		
+			
 	}
 
 }

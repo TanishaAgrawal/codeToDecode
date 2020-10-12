@@ -1,7 +1,6 @@
 body {
 
     background-color: #D3D3D3;
-    
       
   }
   .navbar {
@@ -12,10 +11,18 @@ body {
   
     color: white;
   }
+  .empdetails{
+      color: red;
+      
+      padding-left: 30px;
+    
+  }
+  .blc{
+      color: black;
+  }
   #h{
     border: 2px solid red;
   }
-
   .footer-text{
   	margin-top:20px;
   	color: #ffffff;
@@ -25,7 +32,4 @@ body {
   }
   .footer-content-outer-div{
   	justify-content: center;
-  	position: fixed;
-  	bottom: 0;
-  	width:100%;
   }

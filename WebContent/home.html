@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+	<nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img
+            src="images/LogoRounded.jpg"
+                width="30" height="30" alt="Blogs Home">HOME</a>
+    </nav>
+
+        <div class="container">
+            <div id="customer-employee" >
+            
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      
+                        <input type="submit" id="homeCustomerLogin" value="Customer Login" class="btn btn-info" role="button" onMouseOver="myFunction1()" ></input>  <!--<a href="#" >Customer Login</a>-->
+                     <br><br><input type="submit" id="homeEmployeeLogin" value="Employee Login" class="btn btn-info" role="button" onMouseOver="myFunction2()" ></input><!-- <a href="#"  class="btn btn-info" role="button" onMouseOver="myFunction2()">Employee Login</a>-->
+                    </div>
+
+                </div>
+               
+            </div>
+		</div>
+
+
+		<div class="navbar navbar-dark bg-dark footer-content-outer-div">
+			<footer>
+				<div class="footer-text">Copyright &#169; 2020 | CodeFury |
+					codeToDecode | All rights reserved | Handcrafted with &#10084;&#65039;</div>
+			</footer>
+		</div>
+	<script type="text/javascript">
+		document
+				.getElementById('homeCustomerLogin')
+				.addEventListener(
+						'click',
+						function(event) {
+							event.preventDefault()
+							window.location.href = "FuryCustomer.jsp";
+						});
+	
+		document
+				.getElementById('homeEmployeeLogin')
+				.addEventListener(
+						'click',
+						function(event) {
+							event.preventDefault()
+							window.location.href = "FuryEmployee.jsp";
+						});
+				function myFunction1() {
+                  document.body.style.backgroundColor = "#ef0000";
+                  document.body.style.backgroundImage = "url('images/Customer.svg')";
+                  document.body.style.backgroundRepeat = "no-repeat";
+                }
+                function myFunction2() {
+                  document.body.style.backgroundColor = "#ef0000";
+                  document.body.style.backgroundImage = "url('images/Employee3.svg')";
+                  document.body.style.backgroundRepeat = "no-repeat";
+                }
+	</script>
+</body>
+</html>

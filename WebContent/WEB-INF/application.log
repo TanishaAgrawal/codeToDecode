@@ -1,3 +1,134 @@
 INFO    2020-10-09 01:31:36,760 [http-nio-8090-exec-6] com.hsbc.controllers.ProductController  - /product request received
 INFO    2020-10-09 01:32:55,394 [http-nio-8090-exec-7] com.hsbc.controllers.ProductController  - /product request received
 INFO    2020-10-09 01:34:21,236 [http-nio-8090-exec-1] com.hsbc.controllers.ProductController  - /product request received
+INFO    2020-10-11 17:52:29,222 [http-nio-8090-exec-5] com.hsbc.controllers.ProductController  - /product request received
+INFO    2020-10-11 18:55:52,650 [http-nio-8090-exec-2] com.hsbc.controllers.GetInvoice  - /getInvoice GET request received
+INFO    2020-10-11 18:57:03,549 [http-nio-8090-exec-2] com.hsbc.controllers.GetInvoice  - /getInvoice GET request received
+INFO    2020-10-11 23:56:40,598 [http-nio-8090-exec-2] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-11 23:56:56,489 [http-nio-8090-exec-4] com.hsbc.controllers.ProductController  - /product POST request received
+ERROR   2020-10-11 23:56:56,578 [http-nio-8090-exec-4] com.hsbc.service.ProductService  - Error parsing XML Object: null
+INFO    2020-10-11 23:56:56,661 [http-nio-8090-exec-4] com.hsbc.service.ProductService  - Success Count: 3
+INFO    2020-10-11 23:56:56,661 [http-nio-8090-exec-4] com.hsbc.service.ProductService  - Failure Count: 1
+INFO    2020-10-12 01:18:59,912 [http-nio-8090-exec-7] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 01:20:42,887 [http-nio-8090-exec-2] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 01:20:44,855 [http-nio-8090-exec-3] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 01:20:51,815 [http-nio-8090-exec-4] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 01:21:01,219 [http-nio-8090-exec-5] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 01:21:17,446 [http-nio-8090-exec-6] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 01:21:31,849 [http-nio-8090-exec-7] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 01:21:42,687 [http-nio-8090-exec-8] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 01:21:52,219 [http-nio-8090-exec-2] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 01:25:18,065 [http-nio-8090-exec-6] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 01:25:27,780 [http-nio-8090-exec-7] com.hsbc.controllers.ProductController  - /product POST request received
+ERROR   2020-10-12 01:25:27,822 [http-nio-8090-exec-7] com.hsbc.service.ProductService  - Error parsing JSON Object: java.lang.Long cannot be cast to java.lang.String
+INFO    2020-10-12 01:25:27,899 [http-nio-8090-exec-7] com.hsbc.service.ProductService  - Success Count: 2
+INFO    2020-10-12 01:25:27,899 [http-nio-8090-exec-7] com.hsbc.service.ProductService  - Failure Count: 1
+INFO    2020-10-12 01:26:15,576 [http-nio-8090-exec-2] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 01:26:16,927 [http-nio-8090-exec-3] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 01:26:31,936 [http-nio-8090-exec-4] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 01:26:45,618 [http-nio-8090-exec-5] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 01:26:51,975 [http-nio-8090-exec-6] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 01:46:35,924 [http-nio-8090-exec-5] com.hsbc.controllers.GetInvoice  - /getInvoice GET request received
+INFO    2020-10-12 01:50:05,354 [http-nio-8090-exec-4] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 01:50:14,169 [http-nio-8090-exec-5] com.hsbc.controllers.ProductController  - /product POST request received
+ERROR   2020-10-12 01:50:14,220 [http-nio-8090-exec-5] com.hsbc.service.ProductService  - Error parsing XML Object: null
+INFO    2020-10-12 01:50:14,446 [http-nio-8090-exec-5] com.hsbc.service.ProductService  - Success Count: 3
+INFO    2020-10-12 01:50:14,446 [http-nio-8090-exec-5] com.hsbc.service.ProductService  - Failure Count: 1
+INFO    2020-10-12 01:50:29,631 [http-nio-8090-exec-6] com.hsbc.controllers.ProductController  - /product POST request received
+ERROR   2020-10-12 01:50:29,657 [http-nio-8090-exec-6] com.hsbc.service.ProductService  - Error parsing JSON Object: java.lang.Long cannot be cast to java.lang.String
+INFO    2020-10-12 01:50:29,665 [http-nio-8090-exec-6] com.hsbc.service.ProductService  - Success Count: 2
+INFO    2020-10-12 01:50:29,665 [http-nio-8090-exec-6] com.hsbc.service.ProductService  - Failure Count: 1
+INFO    2020-10-12 01:50:46,471 [http-nio-8090-exec-10] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 01:50:47,990 [http-nio-8090-exec-1] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 01:50:56,121 [http-nio-8090-exec-2] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 01:50:58,597 [http-nio-8090-exec-3] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 01:53:41,379 [http-nio-8090-exec-10] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 01:53:53,343 [http-nio-8090-exec-2] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 01:53:54,732 [http-nio-8090-exec-3] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 01:54:01,413 [http-nio-8090-exec-4] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 01:54:02,746 [http-nio-8090-exec-5] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 01:54:37,892 [http-nio-8090-exec-9] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 01:54:45,674 [http-nio-8090-exec-10] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 01:56:31,007 [http-nio-8090-exec-4] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 01:56:32,431 [http-nio-8090-exec-5] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 01:56:40,174 [http-nio-8090-exec-6] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 01:56:41,240 [http-nio-8090-exec-7] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 02:04:59,839 [http-nio-8090-exec-8] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 02:06:34,433 [http-nio-8090-exec-4] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 02:06:36,040 [http-nio-8090-exec-5] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 02:19:45,287 [http-nio-8090-exec-7] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 02:19:48,126 [http-nio-8090-exec-8] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 02:20:34,170 [http-nio-8090-exec-10] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 02:20:35,673 [http-nio-8090-exec-1] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 02:21:00,954 [http-nio-8090-exec-6] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 02:21:03,314 [http-nio-8090-exec-7] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 02:21:08,602 [http-nio-8090-exec-8] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 02:21:10,572 [http-nio-8090-exec-9] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 18:56:18,179 [http-nio-8090-exec-9] com.hsbc.controllers.GetInvoice  - /getInvoice GET request received
+INFO    2020-10-12 18:57:17,221 [http-nio-8090-exec-4] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 18:57:19,511 [http-nio-8090-exec-5] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 18:57:27,161 [http-nio-8090-exec-6] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 18:57:28,655 [http-nio-8090-exec-7] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 19:20:54,088 [http-nio-8090-exec-2] com.hsbc.controllers.GetInvoice  - /getInvoice GET request received
+INFO    2020-10-12 19:33:35,335 [http-nio-8090-exec-6] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 19:33:55,644 [http-nio-8090-exec-1] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 19:34:02,312 [http-nio-8090-exec-2] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 19:34:07,413 [http-nio-8090-exec-3] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 19:34:08,369 [http-nio-8090-exec-4] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 19:44:45,762 [http-nio-8090-exec-5] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 19:44:47,206 [http-nio-8090-exec-6] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 19:44:53,279 [http-nio-8090-exec-7] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 19:45:16,050 [http-nio-8090-exec-1] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 19:45:22,811 [http-nio-8090-exec-2] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 19:54:32,410 [http-nio-8090-exec-3] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 19:54:33,637 [http-nio-8090-exec-4] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 19:54:39,013 [http-nio-8090-exec-5] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 19:58:03,691 [http-nio-8090-exec-1] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 19:58:05,019 [http-nio-8090-exec-2] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 19:58:10,054 [http-nio-8090-exec-3] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 19:58:21,257 [http-nio-8090-exec-4] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 20:47:06,171 [http-nio-8090-exec-10] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 21:00:22,308 [http-nio-8090-exec-8] com.hsbc.controllers.GetInvoice  - /getInvoice GET request received
+INFO    2020-10-12 21:21:26,533 [http-nio-8090-exec-7] com.hsbc.controllers.GetInvoice  - /getInvoice GET request received
+INFO    2020-10-12 21:21:57,386 [http-nio-8090-exec-7] com.hsbc.controllers.GetInvoice  - /getInvoice GET request received
+INFO    2020-10-12 21:22:03,194 [http-nio-8090-exec-9] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 21:22:14,020 [http-nio-8090-exec-1] com.hsbc.controllers.ProductController  - /product POST request received
+ERROR   2020-10-12 21:22:14,124 [http-nio-8090-exec-1] com.hsbc.service.ProductService  - Error parsing JSON Object: java.lang.Long cannot be cast to java.lang.String
+INFO    2020-10-12 21:22:14,200 [http-nio-8090-exec-1] com.hsbc.service.ProductService  - Success Count: 2
+INFO    2020-10-12 21:22:14,200 [http-nio-8090-exec-1] com.hsbc.service.ProductService  - Failure Count: 1
+INFO    2020-10-12 21:22:29,097 [http-nio-8090-exec-5] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 21:22:30,026 [http-nio-8090-exec-6] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 21:22:36,101 [http-nio-8090-exec-7] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 21:22:37,237 [http-nio-8090-exec-8] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 21:25:37,168 [http-nio-8090-exec-4] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 21:28:05,969 [http-nio-8090-exec-10] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 21:29:52,306 [http-nio-8090-exec-2] com.hsbc.controllers.GetInvoice  - /getInvoice GET request received
+INFO    2020-10-12 21:30:07,503 [http-nio-8090-exec-10] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 21:32:19,169 [http-nio-8090-exec-5] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 21:32:20,552 [http-nio-8090-exec-6] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 21:32:27,316 [http-nio-8090-exec-7] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 21:32:33,912 [http-nio-8090-exec-8] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 21:32:44,379 [http-nio-8090-exec-9] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 21:32:50,333 [http-nio-8090-exec-10] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 21:32:55,031 [http-nio-8090-exec-1] com.hsbc.controllers.ProductController  - /product POST request received
+ERROR   2020-10-12 21:32:55,124 [http-nio-8090-exec-1] com.hsbc.service.ProductService  - Error parsing XML Object: null
+INFO    2020-10-12 21:32:55,133 [http-nio-8090-exec-1] com.hsbc.service.ProductService  - Success Count: 3
+INFO    2020-10-12 21:32:55,133 [http-nio-8090-exec-1] com.hsbc.service.ProductService  - Failure Count: 1
+INFO    2020-10-12 21:33:20,901 [http-nio-8090-exec-3] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 21:33:28,334 [http-nio-8090-exec-5] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 21:33:28,461 [http-nio-8090-exec-3] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 21:33:32,250 [http-nio-8090-exec-8] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 21:59:16,352 [http-nio-8090-exec-10] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 21:59:26,609 [http-nio-8090-exec-4] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 22:02:09,160 [http-nio-8090-exec-5] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 22:02:10,756 [http-nio-8090-exec-6] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 22:02:15,787 [http-nio-8090-exec-7] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 22:04:23,871 [http-nio-8090-exec-7] com.hsbc.controllers.ProductQuote1  - /ProductQuote1 GET request received
+INFO    2020-10-12 22:04:25,469 [http-nio-8090-exec-8] com.hsbc.controllers.GetProducts  - /getProducts GET request receieved
+INFO    2020-10-12 22:04:32,319 [http-nio-8090-exec-9] com.hsbc.controllers.ProductQuote2  - /ProductQuote2 GET request received
+INFO    2020-10-12 22:04:34,768 [http-nio-8090-exec-10] com.hsbc.controllers.ProductQuoteSubmit  - /ProductQuoteSubmit POST request received
+INFO    2020-10-12 22:05:27,195 [http-nio-8090-exec-5] com.hsbc.controllers.ProductController  - /product GET request received
+INFO    2020-10-12 22:05:43,513 [http-nio-8090-exec-8] com.hsbc.controllers.ProductController  - /product POST request received
+ERROR   2020-10-12 22:05:43,542 [http-nio-8090-exec-8] com.hsbc.service.ProductService  - Error parsing XML Object: null
+INFO    2020-10-12 22:05:43,618 [http-nio-8090-exec-8] com.hsbc.service.ProductService  - Success Count: 3
+INFO    2020-10-12 22:05:43,618 [http-nio-8090-exec-8] com.hsbc.service.ProductService  - Failure Count: 1

@@ -1,0 +1,70 @@
+body{
+    background: #ef0000 url('../images/HomeImage.svg') no-repeat;
+    
+}
+.btn-info{
+    background-color: #ef0000;
+    text-align: center;
+    border-color: black;
+    
+    
+}
+.btn{
+    margin-left: 3.3vw;
+}
+.card{
+    background-color: #ef0000;
+    
+
+}
+    
+
+
+.card-body{
+    height: 21vh;
+    background-color: #ef0000;
+    padding-top:30px;
+    
+    border-color: #000000;
+    border-width: 10px;
+
+}
+
+#customer-employee{
+ position: absolute;
+width: 300px;
+height: 200px;
+z-index: 15;
+top: 50%;
+left: 81%;
+margin: -100px 0 0 -150px;
+float: right;
+filter: drop-shadow(2px 4px 6px black);
+}
+.btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info:not(:disabled):not(.disabled):active {
+color: #fff;
+background-color: #ef0000;
+border-color: #000000;
+    border-radius:10px;
+    border-width: 2px;
+   padding:7px 30px;
+   margin-left:2vw;
+   
+}
+
+.btn:focus, .btn.focus {
+outline: 0;
+box-shadow: 0 0 0 0.2rem #ef0000;
+}
+.footer-content-outer-div{
+justify-content: center;
+position: relative;
+margin-top:82vh;
+}
+.footer-text{
+margin-top: 20px;
+color: #ffffff;
+margin-bottom: 20px;
+font-size: 14px;
+font-weight: 600;
+}
